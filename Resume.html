@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        @font-face {
+            font-family: 'GothamThin';
+            src: url('Gotham-Thin.eot');
+            src: url('Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+            url('Gotham-Thin.woff2') format('woff2'),
+            url('Gotham-Thin.woff') format('woff'),
+            url('Gotham-Thin.svg#Gotham-Thin') format('svg');
+            font-weight: 100;
+            font-style: normal;
+            font-display: swap;
+}
+
+        @font-face {
+            font-family: 'GothamBold';
+            src: url('GothamBold.eot');
+            src: url('GothamBold.eot?#iefix') format('embedded-opentype'),
+            url('GothamBold.woff2') format('woff2'),
+            url('GothamBold.woff') format('woff'),
+            url('GothamBold.svg#GothamBold') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+}
+
+
+    .body{
+        font-size: 18;
+        font-weight: 600;
+        text-align: left;
+        color:rgba(255, 255, 255, 0.767);
+        font-family:GothamBold;
+
+        
+    }
+    .button{
+       background-color: rgb(58, 197, 207);
+       border: 5px;
+       color: white; 
+       padding: 10px 34px;
+       text-align: center;
+       display: inline-block;
+       font-size: 18px;
+       border-radius: 25px;
+       text-decoration: none;
+       cursor: pointer;
+       transition: all .25s ease-in-out;
+       font-family: GothamThin;
+       font-weight: 550;
+
+    }
+    .button:hover{
+        transform: scale(1.2,1.2)
+    }
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+
+    }
+    .topleft{
+        display:inline-block;margin-left: 40px;
+        margin-right:7px;
+        margin-top: 10px;
+    }
+    .topleft2{
+        display:inline-block;
+        margin-left: 40px;
+    }
+    .topleft3{
+        display:inline-block;
+        margin-left: 5px;
+    }
+    .job{
+        display:block;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: rgb(44, 143, 143);
+        font-family: GothamThin;
+    }
+    body{
+        background-color: rgb(56, 61, 66);
+    }
+    hr.rounded{
+        border-top:3px solid #35cec1;
+        border-radius: 5px;
+    }
+    .skills{
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 80px;
+        font-family: GothamBold;
+        text-decoration:underline;
+        color:#35cec1;
+    }
+    .edu{
+        display: grid;
+        margin-left: 1000px;
+        margin-top: -80px;
+        color:#35cec1;
+        font-family: GothamBold;
+    }
+    ul.a{
+        list-style-type: circle;
+        color: white;
+        font-family:GothamThin;
+        margin-left: 40px;
+    }
+</style>
+<script>
+    function sendEmail() 
+{
+    window.location = "mailto:joeulam345@gmail.com";
+}
+</script>
+</head>
+    <div class="topleft2">
+        <h1 class=body>
+            Joey Lam
+        </h1>
+    </div>
+    <div2>
+        <h2 class="job">
+            Current High School Student
+        </h2>
+    </div2>
+    <hr class="rounded">
+    
+<body>
+    <div class="topleft">
+        <button class="button" onclick="window.open('https://www.linkedin.com/in/Joey-Lam-89057021b/')">
+            Linkedin
+        </button>
+    </div>
+    <div3 class="topleft3">
+        <button class="button" onclick="sendEmail();">
+            Email
+        </button>
+    </div3>
+</body>
+
+<body>
+    <div>
+        <h1 class="skills">
+            Professional skills
+        </h1>
+        <p>
+            <ul class="a">
+            <li>proficent in words</li> 
+            </ul>
+            
+        </p>
+    </div>
+        <div>
+        <h1 class="edu">
+            Education
+        </h1>
+    </div>
+    <div>
+        <h1 class="skills">
+            Personal projects
+        </h1>
+    </div>
+    <div>
+        <h1 class="skills">
+            Past experience
+        </h1>
+    </div>
+</body>
+<body>
+
+    <div>
+        <h1 class="edu">
+            Achivements
+        </h1>
+    </div>
+</body>
+</html>
